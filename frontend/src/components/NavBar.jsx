@@ -4,6 +4,7 @@ import { NavLink, useNavigate } from 'react-router-dom'
 
 const NavBar = () => {
 
+    
     const navigate=useNavigate();
   return (
     <div className='flex items-center justify-between text-sm mb-b py-4 border-b border-b-grey-400'>
